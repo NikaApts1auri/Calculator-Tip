@@ -33,13 +33,25 @@ h2{
     font-size: 1.6rem;
 
 }
+.input-value img{
+    position: absolute;
+    left: 2rem;
+}
+.input-value{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
 .input-value input { 
     width: 311px;
     height: 48px;
     border: none;
     background-color: #f3f9fa;
     padding: 0.6rem 1.75rem 0.6rem 1.9rem;
-    position: relative;
+    padding: 1rem;
+  font-size: 24px;
+  text-align: right;
+   
     
 }
 .select-tip{
@@ -74,8 +86,18 @@ h2{
     margin-top: 1.7rem;
     border-radius: 0.5rem;
 }
-.people-num h2{
-    padding-top: 3.2rem;
+.people-num{
+    display: flex;
+  position: relative;
+  align-items: center;
+
+}
+.people-num img{
+    position: absolute;
+    left:2rem;
+}
+.numOfPeople{
+    margin-top: 3.2rem;
 }
 .people-num input{
     border-radius: 5px;
@@ -83,6 +105,55 @@ h2{
     width: 311px;
   height: 48px;
   border: none;
-  padding-top: 0.6rem;
+  padding: 1rem;
+  font-size: 24px;
+  text-align: right;
+  margin-top: 0.6rem;
+ 
+
+}
+.lastCont{
+    padding:3.9rem 2.2rem 2.4rem 2.4rem;
+    width: 100%;
+    
+    background-color: #00474b;
+    border-radius: 1.5rem;
+    margin-top: 3.2rem;
 }
 
+.last{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   gap: 35%;
+    margin-bottom: 2.5rem;
+
+}
+.last h2{
+    color: white;
+}
+.last span{
+    color: #7f9d9f;
+    font-size: 1.3rem;
+}
+.last input{
+    width: 10rem;
+  height: 4.7rem;
+    background-color: #00474b;
+    border: none;
+    color: #26c2ae;
+    font-size: 3.2rem;
+    font-weight: bold;
+    
+}
+.lastCont button{
+    height: 4.8rem;
+    width: 100%;
+    background-color: #26c2ae;
+    border: none;
+    border-radius: 0.5rem;
+    color: #00474b;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
