@@ -6,19 +6,18 @@
     <title>Calculator-Tip</title>
     <link rel="icon" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
+ 
 </head>
 <body>
     <header>
         <img src="./images/logo.svg" alt="logo">
     </header>
     <div class="container">
-         <h2 class="bill" >Bill</h2>
+        
     <div class="input-value">
         <img  src="./images/icon-dollar.svg" alt="icon-dollar">
-        <input type="number">
+        <input type="number"  placeholder="Bill" id="bill">
     </div>
-       
-
     
         <h2 class="select-tip">
             Select Tip %
@@ -26,20 +25,20 @@
     
 <div class="percents">
 
-    <div>5%</div>
-    <div>10%</div>
-    <div>15%</div>
-    <div>25%</div>
-    <div>50%</div>
-   <input value="Custom" type="button">
+    <button class="tip">5%</button>
+    <button class="tip">10%</button>
+    <button class="tip">15%</button>
+    <button class="tip">25%</button>
+    <button class="tip">50%</button>
+    <!-- to choose desirable percent -->
+   <input class="custom" value="Custom" placeholder="CUSTOM">     
 </div>
 
 
-<h2 class="numOfPeople">Number Of People</h2>
 <div class="people-num">
     
     <img src="./images/icon-person.svg" alt="icon-person">
-    <input type="number">
+    <input type="number" placeholder="Number Of People" id="people">
 </div>
 <div class="lastCont">
     <div class="amount-row last">
@@ -47,7 +46,7 @@
             <h2>Tip Amount</h2>
             <span> / person </span>
         </div>
-        <input type="number">
+        <h1 id="tip-result">$0.00</h1>
     </div>
 
     <div class="total-row last">
@@ -55,11 +54,14 @@
             <h2>Total</h2>
             <span> / person </span>
         </div>
-        <input type="number">
+        <h1 id="total-result">$0.00</h1>
     </div>
-    <button>RESET</button>
+    <button id="reset">RESET</button>
 </div>
 
     </div>
+
+
+    <script src="script.js" ></script>
 </body>
 </html>
