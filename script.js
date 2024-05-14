@@ -14,12 +14,17 @@ billInput.addEventListener("input",(event)=>{
     calculation();
 });
 
+
 tipButtons.forEach(button =>{
     button.addEventListener("click",(event)=>{
      percentValue = parseInt(event.target.textContent);
+     button.style.backgroundColor="#26c2ae";
+     button.style.border=0;
+     button.style.color="#00474b";
      calculation();
     });
 });
+
 
 peopleInput.addEventListener("input",(event)=>{
 peopleValue=event.target.value;
@@ -41,6 +46,7 @@ reset.addEventListener("click",()=>{
 billInput.value="";
 peopleInput.value="";
 billValue=0;
-tipResult.textContent =`$0.00`
-totalResult.textContent=`$0.00`
+// tipResult.textContent =`$0.00`
+// totalResult.textContent=`$0.00`
+window.location.reload();
 })
