@@ -12,54 +12,65 @@
     <header>
         <img src="./images/logo.svg" alt="logo">
     </header>
-    <div class="container">
+    
+        <div class="container">
+            <section>
+                <div class="input-value">
+                    <img  src="./images/icon-dollar.svg" alt="icon-dollar">
+                    <input type="number"  placeholder="Bill" id="bill">
+                </div>
+                
+                    <h2 class="select-tip">
+                        Select Tip %
+                    </h2>
+                
+            <div class="percents">
+            
+                <button class="tip">5%</button>
+                <button class="tip">10%</button>
+                <button class="tip">15%</button>
+                <button class="tip">25%</button>
+                <button class="tip">50%</button>
+               <input class="custom"  placeholder="CUSTOM">     
+            </div>
+            
+            
+            <div class="people-num">
+                
+                <img src="./images/icon-person.svg" alt="icon-person">
+                <input type="number" placeholder="Number Of People" id="people">
+            </div>
+           
+            </section>
         
-    <div class="input-value">
-        <img  src="./images/icon-dollar.svg" alt="icon-dollar">
-        <input type="number"  placeholder="Bill" id="bill">
-    </div>
-    
-        <h2 class="select-tip">
-            Select Tip %
-        </h2>
-    
-<div class="percents">
-
-    <button class="tip">5%</button>
-    <button class="tip">10%</button>
-    <button class="tip">15%</button>
-    <button class="tip">25%</button>
-    <button class="tip">50%</button>
-    <!-- to choose desirable percent -->
-   <input class="custom"  placeholder="CUSTOM">     
-</div>
-
-
-<div class="people-num">
-    
-    <img src="./images/icon-person.svg" alt="icon-person">
-    <input type="number" placeholder="Number Of People" id="people">
-</div>
-<div class="lastCont">
-    <div class="amount-row last">
-        <div class="amount-string">
-            <h2>Tip Amount</h2>
-            <span> / person </span>
+           
+        
+    <section>
+        <div class="lastCont">
+            <div class="amount-row last">
+                <div class="amount-string">
+                    <h2>Tip Amount</h2>
+                    <span> / person </span>
+                </div>
+                <h1 id="tip-result">$0.00</h1>
+            </div>
+        
+            <div class="total-row last">
+                <div class="total-string">
+                    <h2>Total</h2>
+                    <span> / person </span>
+                </div>
+                <h1 id="total-result">$0.00</h1>
+            </div>
+            <button id="reset">RESET</button>
         </div>
-        <h1 id="tip-result">$0.00</h1>
+    </section>
+        
     </div>
+   
 
-    <div class="total-row last">
-        <div class="total-string">
-            <h2>Total</h2>
-            <span> / person </span>
-        </div>
-        <h1 id="total-result">$0.00</h1>
-    </div>
-    <button id="reset">RESET</button>
-</div>
 
-    </div>
+
 
 
     <script src="script.js" ></script>
