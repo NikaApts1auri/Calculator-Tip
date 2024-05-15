@@ -130,6 +130,7 @@ h2{
     background-color: #00474b;
     border-radius: 1.5rem;
     margin-top: 3.2rem;
+    
 }
 
 .last{
@@ -147,7 +148,7 @@ h2{
     color: #7f9d9f;
     font-size: 1.3rem;
 }
-.last h1{
+.last h3{
     background-color: #00474b;
     color: #26c2ae;
     font-size: 3.2rem;
@@ -163,6 +164,7 @@ h2{
     color: #00474b;
     font-size: 2rem;
     font-weight: bold;
+    
 
 }
 @media only screen and (min-width: 90rem) {
@@ -179,5 +181,12 @@ h2{
     .people-num input{
         width: 100%;
     }
+    .lastCont{
+        padding: 6rem;
+    }
+    .lastCont button{
+        width: ;: 100%;
+    }
+   
 
 }

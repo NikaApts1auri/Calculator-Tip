@@ -43,10 +43,10 @@ const totalResultValue = tipResultValue + billValue / peopleValue;
 }; 
 
 reset.addEventListener("click",()=>{
-// billInput.value="";
-// peopleInput.value="";
-// billValue=0;
-// tipResult.textContent =`$0.00`
-// totalResult.textContent=`$0.00`
-window.location.reload();
+billInput.value="";
+peopleInput.value="";
+billValue=0;
+tipResult.textContent =`$0.00`
+totalResult.textContent=`$0.00`
+
 })
